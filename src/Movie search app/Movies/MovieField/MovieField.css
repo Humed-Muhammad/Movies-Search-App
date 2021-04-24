@@ -1,0 +1,18 @@
+.card-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.movie-card {
+  height: 540px !important;
+  margin: 10px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  text-align: center !important;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%) !important;
+  font-weight: bold !important;
+  box-shadow: 5px 5px 5px gray !important;
+}

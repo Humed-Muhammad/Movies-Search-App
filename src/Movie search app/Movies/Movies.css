@@ -1,0 +1,134 @@
+.movie-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 650vh;
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+.movie-search {
+  width: 60%;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-input {
+  padding: 13px;
+  width: 60%;
+  border: none;
+  background: khaki;
+  color: gray;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+}
+.movie-header {
+  color: rgb(82, 76, 70);
+  padding: 10px;
+  text-align: center;
+}
+.movie-btn {
+  background: lightseagreen !important;
+  padding: 15px !important;
+  width: 30% !important;
+  border: none;
+  color: white !important;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.btn-cont {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+  background: white;
+  padding: 2px;
+  border: none;
+}
+.page-btn {
+  border: none;
+  padding: 5px;
+  margin: 4px 10px;
+  font-size: 20px;
+  color: blue;
+  height: 40px;
+  width: 40px;
+  background-image: gray;
+  border: 1.5px solid rgb(122, 120, 120);
+  outline: none;
+  border-radius: 50%;
+  text-align: center;
+}
+.page {
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+  width: 40px;
+  background: gray;
+  border: 1.5px solid rgb(131, 25, 173);
+  outline: none;
+  text-align: center;
+}
+.movie-loadding-cont {
+  width: 30px;
+  height: 30px;
+  background: rgb(41, 184, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.loadding {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+@media (min-width: 930px) {
+  .movie-cont {
+    height: 340vh;
+  }
+  .btn-cont {
+    width: 70%;
+  }
+  .movie-search {
+    margin-bottom: 20px;
+  }
+  .movie-btn {
+    width: 20% !important;
+  }
+}
+
+@media (max-width: 929px) {
+  .movie-cont {
+    height: 420vh;
+  }
+
+  .btn-cont {
+    width: 60%;
+  }
+}
+@media (max-width: 619px) {
+  .movie-cont {
+    height: 800vh;
+  }
+  .btn-cont {
+    width: 60%;
+  }
+}
+@media (max-width: 517px) {
+  .movie-cont {
+    height: 800vh;
+  }
+  .btn-cont {
+    width: 60%;
+  }
+}
